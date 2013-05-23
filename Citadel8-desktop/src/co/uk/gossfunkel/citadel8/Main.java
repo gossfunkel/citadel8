@@ -5,8 +5,8 @@ import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 
 public class Main {
 	
-	private static int width = 500;
-	private static int height = width * 16/9;
+	private static int width = 1000;
+	private static int height = width / 16*9;
 	
 	public static void main(String[] args) {
 		LwjglApplicationConfiguration cfg = new LwjglApplicationConfiguration();
