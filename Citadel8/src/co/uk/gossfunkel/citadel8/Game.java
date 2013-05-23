@@ -11,6 +11,9 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 
 public class Game implements ApplicationListener {
+	
+	//TODO: motherfricking everything
+	
 	private OrthographicCamera camera;
 	private SpriteBatch batch;
 	private Texture texture;
