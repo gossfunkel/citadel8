@@ -10,11 +10,11 @@ public class Main {
 	
 	public static void main(String[] args) {
 		LwjglApplicationConfiguration cfg = new LwjglApplicationConfiguration();
-		cfg.title = "Citadel8";
-		cfg.useGL20 = false;
+		cfg.title = "Citadel8 " + GameManager.VERSION;
+		cfg.useGL20 = true;
 		cfg.width = width;
 		cfg.height = height;
 		
-		new LwjglApplication(new Game(), cfg);
+		new LwjglApplication(new GameManager(), cfg);
 	}
 }
